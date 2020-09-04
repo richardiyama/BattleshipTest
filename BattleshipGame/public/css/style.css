@@ -1,0 +1,74 @@
+.unselectable ::selection {
+    background: transparent;
+  }
+  .unselectable ::-moz-selection {
+    background: transparent;
+  }
+  
+  #container {
+    margin: 20px auto 0;
+    width: 345px;
+  }
+  table#gameTable {
+    background-color: #36efe6;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    padding: 9px;
+  }
+  table#gameTable thead td,
+  table#gameTable td.index,
+  table#gameTable td.gameCell {
+    font-weight: bold;
+    width: 18px;
+    height: 18px;
+    color: #FFF;
+    font-size: 18px;
+  }
+  table#gameTable tbody td {
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+  }
+  table#gameTable tbody td.gameCell {
+    cursor: pointer;
+    text-align: center;
+  }
+  table#gameTable tbody td.state_0 {
+    background-color: white;
+  }
+  table#gameTable tbody td.state_2 {
+    background-color: #36ef99;
+  }
+  table#gameTable tbody td.state_1,
+  table#gameTable tbody td.state_3 {
+    background-color: #36c4ef;
+  }
+  table#gameTable ::selection {
+    background: transparent;
+  }
+  table#gameTable ::-moz-selection {
+    background: transparent;
+  }
+  
+  .title_text{
+      text-align: center;
+  }
+  .inputcontrol {
+      display: block;
+      width: 100%;
+      height: 384px;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+      -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+      -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+      transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
