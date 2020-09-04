@@ -63,7 +63,7 @@ class ShipController extends controller
 	{
 		$this->restart();	
 		if(Session::has('allBattleShips')){
-           // $this->addShipsToCart($request->allShips);
+           
         }else{
         	$this->saveOnScreenGrid($request->allShips);
         }
@@ -170,7 +170,7 @@ class ShipController extends controller
      }
         return true;
      }
-     //Cehck if already hit Ships or already missed hit
+     //Check if already hit Ships or already missed hit
 	 public function checkAlreadyHit($ship)
 	 {
 	 	 $status = false;
